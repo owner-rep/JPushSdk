@@ -2,7 +2,9 @@
 
 buildscript {
     repositories {
-        jcenter()
+        maven {
+            url "http://nexus.uddream.cn/content/groups/public/"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
@@ -14,7 +16,9 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        maven {
+            url "http://nexus.uddream.cn/content/groups/public/"
+        }
     }
 }
 
