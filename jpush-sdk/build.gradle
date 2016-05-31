@@ -26,8 +26,8 @@ dependencies {
 apply from: './upload.gradle'//注意路径问题，upload.gradle存放位置有关
 private configure(def pom) {
     pom.packaging = 'aar'
-    pom.name = "com.android.jpush:jpush-v3.7.3"
+    pom.name = "com.android.jpush:jpush-v2.1.5"
     pom.groupId = "com.android.jpush"
-    pom.artifactId = "jpush-v3.7.3"
+    pom.artifactId = "jpush-v2.1.5"
     pom.version = "1.0.0"
 }
